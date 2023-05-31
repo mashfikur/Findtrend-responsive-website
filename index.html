@@ -1,237 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Findtrend</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- First page -->
-    <div class="text-slate-50 flex flex-col  bg-black ">
-            <!-- Navbar -->
-        <nav class="flex flex-row relative items-center mb-3 justify-between container mx-auto mt-5 ">
-            <!-- logo -->
-            <div class=" hidden w-36 cursor-pointer md:block " >
-                <img src="img/Logo color.png"  alt="logo-image">
-            </div>
-            <!-- Mobile logo -->
-            <div class="cursor-pointer w-10 mx-5  md:hidden">
-                <img src="img/Fav-256px.png" alt="">
-            </div>
-                
-            <!-- Hamburger icon -->
-            <div class="mx-5 md:hidden cursor-pointer" >
-                <img src="img/icon-hamburger.svg" >
-            </div>
-                
-            <!-- List -->
-            <div class=" hidden flex flex-row justify-between items-center font-semibold space-x-7 md:block">
-                <a href="#">About</a>
-                <a href="#">How it work</a>
-                <a href="#">Pricing</a>
-                <a href="#">Solution</a>
-                <a href="#">Features</a>
-            </div>
+    <div class="text-slate-50 flex flex-col bg-black">
+      <!-- Navbar -->
+      <nav
+        class="flex flex-row relative items-center mb-3 justify-between container mx-auto mt-5"
+      >
+        <!-- logo -->
+        <div class="hidden w-36 cursor-pointer md:block">
+          <img src="img/Logo color.png" alt="logo-image" />
+        </div>
+        <!-- Mobile logo -->
+        <div class="cursor-pointer w-10 mx-5 md:hidden">
+          <img src="img/Fav-256px.png" alt="" />
+        </div>
 
-            <!-- Login & Registration -->
-            <div class=" hidden flex flex-row font-semibold items-center justify-between space-x-5 md:block ">
-                <a href="#">Login</a>
-                <a href="#" class="bg-slate-200 text-black rounded-full px-5 py-2  " >Register</a>
+        <!-- Hamburger icon -->
+        <div class="mx-5 md:hidden cursor-pointer">
+          <img src="img/icon-hamburger.svg" />
+        </div>
+
+        <!-- List -->
+        <div
+          class="hidden flex flex-row justify-between items-center font-semibold space-x-7 md:block"
+        >
+          <a href="#">About</a>
+          <a href="#">How it work</a>
+          <a href="#">Pricing</a>
+          <a href="#">Solution</a>
+          <a href="#">Features</a>
+        </div>
+
+        <!-- Login & Registration -->
+        <div
+          class="hidden flex flex-row font-semibold items-center justify-between space-x-5 md:block"
+        >
+          <a href="#">Login</a>
+          <a href="#" class="bg-slate-200 text-black rounded-full px-5 py-2"
+            >Register</a
+          >
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+
+      <section id="hero">
+        <div class="flex flex-col mt-24 items-center">
+          <!-- Hero text -->
+
+          <div class="flex flex-col space-y-2 items-center">
+            <div class="text-3xl font-bold md:text-6xl text-center">
+              <h1>Minimize your tab</h1>
+              <h1>Find the trends!</h1>
             </div>
-        </nav>
-
-    <!-- Hero section -->
-
-        <section id="hero" >
-            <div class="flex flex-col mt-24 items-center ">
-                
-                <!-- Hero text -->
-
-                <div class="flex flex-col space-y-2 items-center" >
-                    <div class="text-3xl font-bold md:text-6xl text-center" >
-                        <h1>Minimize your tab </h1>
-                        <h1>Find the trends!</h1>
-                    </div>
-                    <div class="mt-5  w-1/2 text-base md:w-fit text-slate-400/60" >
-                        <p>Don't let your computer memories consumes all of those browser tabs. <br> 
-                        Findtrend  let you gathers all of your favorite website into one place.</p>
-                    </div>
-                </div>
-
-                <!-- Get Started button -->
-                <div class="mt-8 bg-btnColor px-4 py-2  rounded-full ">
-                    <a href="#" class=" font-semibold text-black" >Get started &#128293 </a>
-                </div>
-                <!-- Container cover img -->
-                <div class="hidden md:block" >
-                    <img src="img/container-cover.png" alt="">
-                </div>
-                <!-- Mobile container cover img -->
-                <div class="flex flex-col w-1/2 mt-4 mb-4 md:hidden space-y-1.2">
-                    <img src="img/tab1.png" alt="">
-                    <img src="img/tab2.png" alt="">
-                    <img src="img/tab3.png" alt="">
-                    <img src="img/tab4.png" alt="">
-                </div>
+            <div class="mt-5 w-1/2 text-base md:w-fit text-slate-400/60">
+              <p>
+                Don't let your computer memories consumes all of those browser
+                tabs. <br />
+                Findtrend let you gathers all of your favorite website into one
+                place.
+              </p>
             </div>
-        </section>
+          </div>
+
+          <!-- Get Started button -->
+          <div class="mt-8 bg-btnColor px-4 py-2 rounded-full">
+            <a href="#" class="font-semibold text-black">Get started &#128293 </a>
+          </div>
+          <!-- Container cover img -->
+          <div class="hidden md:block">
+            <img src="img/container-cover.png" alt="" />
+          </div>
+          <!-- Mobile container cover img -->
+          <div class="flex flex-col w-1/2 mt-4 mb-4 md:hidden space-y-1.2">
+            <img src="img/tab1.png" alt="" />
+            <img src="img/tab2.png" alt="" />
+            <img src="img/tab3.png" alt="" />
+            <img src="img/tab4.png" alt="" />
+          </div>
+        </div>
+      </section>
     </div>
-
-
-
 
     <!-- Second Page -->
 
     <div class="bg-btnColor items-center flex flex-col">
-        <!-- Opening text -->
-        <div class="items-center mt-20">
-            <p class="text-3xl font-bold md:text-6xl text-black" >Open new tabs is sh*t</p>
-        </div>
-        <!-- Container img -->
-        <div class=" w-1/2 px-8 py-3  mx-16 my-16 rounded-md  bg-white mb-8 md:px-12 md:py-8 md:w-1/5" >
-            <img src="./img/tab5.png" alt="">
-        </div>
-        <div class="font-semibold mb-20 md:mb-32 items-center text-center">
-            
-                <p>A solution for your browser tabs and don't make your device get slower over time. Get </p>
-            
-            <p>  ease and faster to discover a trend with just one tab.</p>
+      <!-- Opening text -->
+      <div class="items-center mt-20">
+        <p class="text-3xl font-bold md:text-6xl text-black">
+          Open new tabs is sh*t
+        </p>
+      </div>
+      <!-- Container img -->
+      <div
+        class="w-1/2 px-8 py-3 mx-16 my-16 rounded-md bg-white mb-8 md:px-12 md:py-8 md:w-1/5"
+      >
+        <img src="./img/tab5.png" alt="" />
+      </div>
+      <div class="font-semibold mb-20 md:mb-32 items-center text-center">
+        <p>
+          A solution for your browser tabs and don't make your device get slower
+          over time. Get
+        </p>
 
-        </div>
+        <p>ease and faster to discover a trend with just one tab.</p>
+      </div>
     </div>
 
     <!-- Third Page -->
 
     <div class="flex flex-col items-center bg-black text-white">
+      <!-- top section -->
+      <div class="flex flex-col mt-20 md:mt-36">
+        <h1 class="font-bold text-4xl md:text-6xl">Get your best deal</h1>
 
-        <!-- top section -->
-        <div class="flex flex-col  mt-20 md:mt-36 ">
-            <h1 class="font-bold text-4xl md:text-6xl">Get your best deal</h1>
-            
-            <!-- Toggle button -->
-            <div class="flex  my-8 space-x-6 flex-row items-center justify-around font-semibold text-center md:mt-12" >
-                <p>Monthly</p>
-                <img src="img/on-button.png" class="rotate-180 hover:rotate-0 duration-300 cursor-pointer">
-                <p class="text-gray-500" >Yearly</p>
-            </div>
-            
+        <!-- Toggle button -->
+        <div
+          class="flex my-8 space-x-6 flex-row items-center justify-around font-semibold text-center md:mt-12"
+        >
+          <p>Monthly</p>
+          <img
+            src="img/on-button.png"
+            class="rotate-180 hover:rotate-0 duration-300 cursor-pointer"
+          />
+          <p class="text-gray-500">Yearly</p>
+        </div>
+      </div>
+
+      <!-- Crad section -->
+
+      <div
+        class="flex flex-col items-center mb-20 justify-between space-y-6 md:space-x-10 md:mb-36 md:flex-row"
+      >
+        <!-- First card -->
+
+        <div
+          class="bg-white rounded-lg transform hover:scale-105 duration-300 p-4"
+        >
+          <h2 class="font-semibold text-black text-2xl mb-2">Personal</h2>
+          <hr class="my-2 border-black" />
+          <h2 class="text-black">
+            <span class="font-semibold text-black text-4xl mr-2 mb-2">$8</span
+            >/Month
+          </h2>
+          <ul class="list-decimal pl-6 my-10">
+            <li class="text-black">Up to 5 page each group</li>
+            <li class="text-black">Up to 10 group page</li>
+            <li class="text-black">Average Days group page saved</li>
+            <li class="text-black">Average Days group page saved</li>
+            <li class="text-black">Average Days group page saved</li>
+            <li class="text-black">Average Days group page saved</li>
+          </ul>
+          <div class="flex justify-center mt-4">
+            <button
+              class="bg-btnColor text-black font-bold py-4 px-8 rounded-full"
+            >
+              Start free trial
+            </button>
+          </div>
         </div>
 
-        <!-- Crad section -->
+        <!-- Second card -->
 
-        <div class="flex flex-col items-center mb-20 justify-between space-y-6 md:space-x-10 md:mb-36 md:flex-row">
-            <!-- First card -->
-
-            <div class="bg-white rounded-lg transform hover:scale-105 duration-300 p-4">
-                <h2 class="font-semibold text-black text-2xl mb-2">Personal</h2>
-                <hr class="my-2 border-black">
-                <h2 class="text-black" ><span class="font-semibold text-black text-4xl mr-2 mb-2" >$8</span>/Month </h2>              
-                <ul class="list-decimal pl-6 my-10">
-                  <li class="text-black">Up to 5 page each group</li>
-                  <li class="text-black">Up to 10 group page</li>
-                  <li class="text-black">Average Days group page saved</li>
-                  <li class="text-black">Average Days group page saved</li>
-                  <li class="text-black">Average Days group page saved</li>
-                  <li class="text-black">Average Days group page saved</li>
-                </ul>
-                <div class="flex justify-center mt-4">
-                  <button class="bg-btnColor  text-black font-bold py-4 px-8 rounded-full">
-                    Start free trial
-                  </button>
-                </div>
-              </div>
-              
-
-            <!-- Second card -->
-
-            <div class="bg-btnColor text-black rounded-lg p-4 transform hover:scale-105 duration-300 ">
-                <h2 class="font-semibold text-black text-2xl mb-2">Regular</h2>
-                <hr class="my-2 border-black">
-                <h2 class="text-black" ><span class="font-semibold text-black text-4xl mr-2 mb-2" >$8</span>/Month </h2>              
-                <ul class="list-decimal pl-6 my-10">
-                  <li class="text-black">Up to 5 page each group</li>
-                  <li class="text-black">Up to 10 group page</li>
-                  <li class="text-black">More Days group page saved</li>
-                  <li class="text-black">More Days group page saved</li>
-                  <li class="text-black">More Days group page saved</li>
-                  <li class="text-black">More Days group page saved</li>
-                </ul>
-                <div class="flex justify-center mt-4">
-                  <button class="bg-black  text-white font-bold py-4 px-8 rounded-full">
-                    Start free trial
-                  </button>
-                </div>
-              </div>
-
-              <!-- Third card -->
-
-
-              <div class="bg-white rounded-lg p-4 transform hover:scale-105 duration-300 ">
-                <h2 class="font-semibold text-black text-2xl mb-2">Premium</h2>
-                <hr class="my-2 border-black">
-                <h2 class="text-black" ><span class="font-semibold text-black text-4xl mr-2 mb-2" >$8</span>/Month </h2>              
-                <ul class="list-decimal pl-6 my-10">
-                  <li class="text-black">Up to 5 page each group</li>
-                  <li class="text-black">Up to 10 group page</li>
-                  <li class="text-black">Several Days group page saved</li>
-                  <li class="text-black">Several Days group page saved</li>
-                  <li class="text-black">Several Days group page saved</li>
-                  <li class="text-black">Several Days group page saved</li>
-                </ul>
-                <div class="flex justify-center mt-4">
-                  <button class="bg-btnColor  text-black font-bold py-4 px-8 rounded-full">
-                    Start free trial
-                  </button>
-                </div>
-              </div>
-              
-              
-                
-
+        <div
+          class="bg-btnColor text-black rounded-lg p-4 transform hover:scale-105 duration-300"
+        >
+          <h2 class="font-semibold text-black text-2xl mb-2">Regular</h2>
+          <hr class="my-2 border-black" />
+          <h2 class="text-black">
+            <span class="font-semibold text-black text-4xl mr-2 mb-2">$8</span
+            >/Month
+          </h2>
+          <ul class="list-decimal pl-6 my-10">
+            <li class="text-black">Up to 5 page each group</li>
+            <li class="text-black">Up to 10 group page</li>
+            <li class="text-black">More Days group page saved</li>
+            <li class="text-black">More Days group page saved</li>
+            <li class="text-black">More Days group page saved</li>
+            <li class="text-black">More Days group page saved</li>
+          </ul>
+          <div class="flex justify-center mt-4">
+            <button
+              class="bg-black text-white font-bold py-4 px-8 rounded-full"
+            >
+              Start free trial
+            </button>
+          </div>
         </div>
-                
 
+        <!-- Third card -->
 
-
+        <div
+          class="bg-white rounded-lg p-4 transform hover:scale-105 duration-300"
+        >
+          <h2 class="font-semibold text-black text-2xl mb-2">Premium</h2>
+          <hr class="my-2 border-black" />
+          <h2 class="text-black">
+            <span class="font-semibold text-black text-4xl mr-2 mb-2">$8</span
+            >/Month
+          </h2>
+          <ul class="list-decimal pl-6 my-10">
+            <li class="text-black">Up to 5 page each group</li>
+            <li class="text-black">Up to 10 group page</li>
+            <li class="text-black">Several Days group page saved</li>
+            <li class="text-black">Several Days group page saved</li>
+            <li class="text-black">Several Days group page saved</li>
+            <li class="text-black">Several Days group page saved</li>
+          </ul>
+          <div class="flex justify-center mt-4">
+            <button
+              class="bg-btnColor text-black font-bold py-4 px-8 rounded-full"
+            >
+              Start free trial
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- last page -->
 
-    <div class="flex flex-col bg-btnColor items-center ">
-        <!-- Header -->
-        <div class="flex flex-col text-black text-3xl font-bold text-center mt-24 md:text-6xl md:mt-36 ">
-            <h1>Join us on email for</h1>
-            <h1 class="text-black/25">more trending topics</h1>
-        </div>
-        <!-- join button -->
-        <div class="text-white font-normal mt-16  mb-24  bg-black px-6 py-2 rounded-full md:mb-36 md:mt-24" >
-            <a href="#join">Join now</a>
-        </div>
+    <div class="flex flex-col bg-btnColor items-center">
+      <!-- Header -->
+      <div
+        class="flex flex-col text-black text-3xl font-bold text-center mt-24 md:text-6xl md:mt-36"
+      >
+        <h1>Join us on email for</h1>
+        <h1 class="text-black/25">more trending topics</h1>
+      </div>
+      <!-- join button -->
+      <div
+        class="text-white font-normal mt-16 mb-24 bg-black px-6 py-2 rounded-full md:mb-36 md:mt-24"
+      >
+        <a href="#join">Join now</a>
+      </div>
     </div>
 
     <!-- Footer -->
 
-    <footer class="flex flex-col my-20 text-center items-center  container md:my-8 md:flex-row  mx-auto justify-between" >
-        <!-- Left footer -->
+    <footer
+      class="flex flex-col my-20 text-center items-center container md:my-8 md:flex-row mx-auto justify-between"
+    >
+      <!-- Left footer -->
 
-        <div class=" w-40 cursor-pointer  ">
-            <img src="img/logo dark.png" alt="">
-        </div>
-        <!-- Footer list -->
-        <div class="flex flex-col mt-24 space-y-6 font-semibold md:mt-0 md:space-y-0 md:flex-row md:space-x-6">
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#privacy">Terms and Conditions</a>
-            <a href="#privacy">Conatact Us</a>
-            <a href="#privacy">Careers</a>
-        </div>
-
+      <div class="w-40 cursor-pointer">
+        <img src="img/logo dark.png" alt="" />
+      </div>
+      <!-- Footer list -->
+      <div
+        class="flex flex-col mt-24 space-y-6 font-semibold md:mt-0 md:space-y-0 md:flex-row md:space-x-6"
+      >
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#privacy">Terms and Conditions</a>
+        <a href="#privacy">Conatact Us</a>
+        <a href="#privacy">Careers</a>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
-
-
-
